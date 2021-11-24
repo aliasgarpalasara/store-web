@@ -20,7 +20,7 @@ h6 {
 }
 
 #content{
-    min-height: 600px;
+    min-height: 250px;
 }
 
 
@@ -47,7 +47,7 @@ h6 {
 }
 
 /*This code ensures that when we navigate to a particular section of a page, the section does not get lost behind the header*/
-#cameras:before, #watches:before, #shirts:before{
+#cameras:before, #watches:before, #shirts:before, #shoes:before, #t-shirts:before, #man-suit:before{
     display: block; 
     content: " "; 
     margin-top: -85px; 
